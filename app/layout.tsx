@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inknutAntiqua.variable} antialiased bg-[#F5ECE3] px-24`}
+        className={`${inknutAntiqua.variable} antialiased bg-[#F5ECE3]`}
       >
         {children}
       </body>
