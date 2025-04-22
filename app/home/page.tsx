@@ -5,7 +5,7 @@ import Logo from '@/components/Logo'
 import { CalendarDays, CircleUser, Headset } from 'lucide-react'
 import React from 'react'
 
-export default function Homepage() {
+export default function HomePage() {
   return (
     <>
       <main>
@@ -22,8 +22,8 @@ export default function Homepage() {
             </div>
 
             <div className='flex gap-24 m-16'>
-              <FreeConsultationButton></FreeConsultationButton>
-              <ServicesButton></ServicesButton>
+              <FreeConsultationButton />
+              <ServicesButton />
             </div>
           </div>
           <img className='size-120 ml-16' src="./programmer_workstation.png" alt="workstation" />
@@ -32,19 +32,19 @@ export default function Homepage() {
 
         <section className='rounded-2xl flex justify-between p-8 bg-[#183657] w-full mt-28'>
           <InformationCard
-            icon={<CircleUser className='size-full' />}
+            icon={<CircleUser className='size-full' strokeWidth={1.5} />}
             value="+500"
             description="Clientes satisfechos"
           />
 
           <InformationCard
-            icon={<CalendarDays className='size-full' />}
+            icon={<CalendarDays className='size-full' strokeWidth={1.5} />}
             value="+10"
             description="Años de experiencia"
           />
 
           <InformationCard
-            icon={<Headset className='size-full' />}
+            icon={<Headset className='size-full' strokeWidth={1.5} />}
             value="24/7"
             description="Soporte disponible"
           />

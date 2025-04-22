@@ -11,10 +11,10 @@ export default function Header() {
             </div>
 
             <div className='flex gap-24 text-[#183657] text-2xl'>
-                <a href="/">Home</a>
-                <a href="/">Services</a>
-                <a href="/">Contact</a>
-                <a href="/">About Us</a>
+                <a href="/" className='hover:bg-[#183657] hover:text-[#F5ECE3] hover:opacity-70 hover:p-4 hover:rounded-lg transition-all cursor-pointer'>Home</a>
+                <a href="/" className='hover:bg-[#183657] hover:text-[#F5ECE3] hover:opacity-70 hover:p-4 hover:rounded-lg transition-all cursor-pointer'>Services</a>
+                <a href="/" className='hover:bg-[#183657] hover:text-[#F5ECE3] hover:opacity-70 hover:p-4 hover:rounded-lg transition-all cursor-pointer'>Contact</a>
+                <a href="/" className='hover:bg-[#183657] hover:text-[#F5ECE3] hover:opacity-70 hover:p-4 hover:rounded-lg transition-all cursor-pointer'>About Us</a>
             </div>
 
             <FreeConsultationButton></FreeConsultationButton>

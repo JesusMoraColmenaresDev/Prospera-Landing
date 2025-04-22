@@ -5,7 +5,7 @@ export default function FreeConsultationButton() {
   return (
     <button 
         type='button'
-        className='flex rounded-4xl px-5 py-7 text-3xl  bg-[#183657] text-[#F5ECE3]'
+        className='flex rounded-4xl px-5 py-7 text-3xl  bg-[#183657] hover:bg-[#183677] text-[#F5ECE3] transition-colors cursor-pointer'
     >
         Consulta gratuita
       
