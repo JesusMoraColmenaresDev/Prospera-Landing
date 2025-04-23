@@ -10,7 +10,7 @@ import React from 'react'
 export default function HomePage() {
   return (
     <>
-      <main className='px-24 mb-12'>
+      <main>
         <section className='flex mt-20 '>
           <div className='flex flex-col'>
 
@@ -63,7 +63,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className='mt-12 grid xl:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1 '>
+        <section className='mt-12 grid xl:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1 justify-items-center'>
           <ServicesCard
           
               icon={<DollarSign className='size-full' strokeWidth={1.8} />}
@@ -84,8 +84,6 @@ export default function HomePage() {
             />
         </section>
       </main>
-
-      <Footer></Footer>
     </>
   )
 }

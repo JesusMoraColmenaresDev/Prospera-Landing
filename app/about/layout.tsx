@@ -9,6 +9,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
             <div className='px-24 mb-16'>
                 {children}
             </div>
+            
             <Footer></Footer>
         </>
     )
