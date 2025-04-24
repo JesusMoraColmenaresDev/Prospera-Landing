@@ -2,10 +2,11 @@ import Footer from '@/components/Footer'
 import FreeConsultationButton from '@/components/home/FreeConsultationButton'
 import InformationCard from '@/components/home/InformationCard'
 import ServicesButton from '@/components/home/ServicesButton'
-import ServicesCard from '@/components/home/ServicesCard'
+import ServicesCard from '@/components/home/ProsperaAdvantagesCard'
 import Logo from '@/components/Logo'
 import { CalendarDays, CircleUser, DollarSign, Headset } from 'lucide-react'
 import React from 'react'
+import ProsperaAdvantagesCard from '@/components/home/ProsperaAdvantagesCard'
 
 export default function HomePage() {
   return (
@@ -64,20 +65,20 @@ export default function HomePage() {
         </section>
 
         <section className='mt-12 grid xl:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1 justify-items-center'>
-          <ServicesCard
+          <ProsperaAdvantagesCard
           
               icon={<DollarSign className='size-full' strokeWidth={1.8} />}
               title="Asesoria financiera"
               description="Asesorate para tener las mejores finanzas de la mano de nuestros profesionales"
             />
 
-            <ServicesCard
+            <ProsperaAdvantagesCard
               icon={<DollarSign className='size-full' strokeWidth={1.8} />}
-              title="Asesoria financiera"
+              title="Asesoria financieaaaaaaaaaaaaaaaaaaaaaaaaaaaara"
               description="Asesorate para tener las mejores finanzas de la mano de nuestros profesionales"
             />
 
-            <ServicesCard
+            <ProsperaAdvantagesCard
               icon={<DollarSign className='size-full' strokeWidth={1.8} />}
               title="Asesoria financiera"
               description="Asesorate para tener las mejores finanzas de la mano de nuestros profesionales"

@@ -4,7 +4,7 @@ import React from 'react'
 export default function AboutUspage() {
   return (
     <div className='flex gap-8 items-center '>
-      <div className='flex flex-col gap-2 border-l-2'>
+      <div className='flex flex-col gap-2 border-l-2 border-black/50'>
       <div className='flex items-center pl-2 gap-8'>
         <p className='text-[#183657] font-extrabold text-7xl  pl-4 py-4'>Acerca de nosotros</p>
         <UserRoundCheck className='text-[#183657] size-24' strokeWidth={2.1}/>
