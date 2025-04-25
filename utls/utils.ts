@@ -8,7 +8,7 @@ export function formatData(isoString: string) : string {
     return formatter.format(data)
 }
 
-export function formatDataWithHour(isoString: string) : string {
+export function formatDataHour(isoString: string) : string {
     const data = new Date(isoString)
     const HourData = data.toLocaleTimeString('es-ES', {
         hour: '2-digit',
