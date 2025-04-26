@@ -1,7 +1,7 @@
 import { Check, User, UserRoundCheck, Users } from 'lucide-react'
 import React from 'react'
 
-export default function AboutUspage() {
+export default function AboutUsPage() {
   return (
     <div className='flex gap-8 items-center '>
       <div className='flex flex-col gap-2 border-l-2 border-black/50'>
