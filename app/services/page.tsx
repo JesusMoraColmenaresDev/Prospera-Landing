@@ -7,7 +7,7 @@ export default function ServicesPage() {
     return (
         <div>
             <div className='flex flex-col '>
-                <p className='text-[#183657] font-extrabold text-7xl border-t-2 border-black/50 w-fit mx-auto p-8' >Nuestros servicios</p>
+                <p className='text-[#183657] font-extrabold text-7xl border-t-4 border-black/50 w-fit mx-auto p-8' >Nuestros servicios</p>
                 <p className='text-2xl gap-6 text-[#3A3A3A] opacity-90 mt-8 text-center'>Tenemos una amplia gama de servicios para ayudarte a alcanzar tus metas financieras</p>
                 <div className='flex gap-8 justify-center flex-wrap mt-16'>
                     <ServicesCard

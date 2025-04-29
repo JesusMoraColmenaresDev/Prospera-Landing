@@ -11,7 +11,7 @@ import ProsperaAdvantagesCard from '@/components/home/ProsperaAdvantagesCard'
 export default function HomePage() {
   return (
     <>
-      <main>
+      <main className='max-w-[1700px] m-auto'>
         <section className='flex mt-20 '>
           <div className='flex flex-col'>
 

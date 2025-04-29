@@ -11,11 +11,12 @@ export default function AppointmentForm() {
         <>
             <div className='flex flex-col gap-4'>
                 <div className='text-lg'>
-                    <label htmlFor="selectHour"> Selecciona la hora para tu cita: </label>
+                    <label htmlFor="selectHour" className='border-b-[#183657]'> Selecciona la hora para tu cita: </label>
                     <select required
                         id='hour'
                         name='hour'
                         defaultValue={appointmentSelected && (appointmentSelected?.start.getHours().toString().padStart(2, '0') + ":00")}
+                        className='border-b-3 border-b-[#183657]'
                     >
                         {hours.map(hour => (
                             <option

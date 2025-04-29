@@ -5,7 +5,7 @@ import FreeConsultationButton from './home/FreeConsultationButton'
 export default function Header() {
   return (
     <header>
-        <div className='flex justify-between items-center pr-4'>
+        <div className='flex m-auto justify-between items-center pr-4 max-w-[1700px]'>
             <div className='w-42 py-1'>
                 <Logo></Logo>
             </div>

@@ -112,7 +112,7 @@ export default function ModalAppointment() {
 
                                 <div className='border-b-2 border-black/50 mx-6 pb-4'>
                                     <div className='flex justify-end'>
-                                        <X strokeWidth={3.0} onClick={() => setOpenModalAppointment(false)} className='cursor-pointer' />
+                                        <X strokeWidth={3.0} onClick={() => setOpenModalAppointment(false)} className='cursor-pointer bg-[#F5ECE3] w-12 h-12 rounded-lg hover:text-gray-500' />
                                     </div>
 
                                     <Dialog.Title
