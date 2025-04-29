@@ -2,3 +2,10 @@
 body {
   font-family: var(--font-inknut-antiqua)
 }
+
+/* Hace las líneas del fullCallendar mas negras*/
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border: 1px solid #797878 !important; /* gris claro */
+  border-radius: 8px;
+}

@@ -1,10 +1,13 @@
 import { PrismaClient } from "@prisma/client";
+import { appointments } from "./data/appoiments";
 
 const prisma = new PrismaClient()
 
 async function main() {
     try{
-
+        await prisma.cita.createMany({
+            data : appointments
+        })
     }catch(error){
         console.log(error)
     }

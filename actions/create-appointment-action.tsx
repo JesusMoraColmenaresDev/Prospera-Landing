@@ -4,6 +4,8 @@ import { CitaSchema } from "@/src/schemas";
 
 export async function createCita(data: unknown){
     const result = CitaSchema.safeParse(data)
+
+    
     if(!result.success){
         return {
             errors : result.error.issues
